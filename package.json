@@ -8,8 +8,8 @@
     "nodemon": "^2.0.22"
   },
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "node dist/index.js",
+    "dev": "ts-node index.ts",
+    "start": "tsc && node dist/index.js",
     "build": "tsc"
   },
   "devDependencies": {
